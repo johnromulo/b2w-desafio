@@ -1,0 +1,32 @@
+
+.Information .title{
+    color: #3a3838;
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    padding: .5rem 0 .5rem 0;
+}
+
+.Information .date{
+    color: #3a3838;
+    display: block;
+    text-align: left;
+    font-size: .9rem;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 8px;
+    padding: .5rem 0 .5rem 0;
+}
+
+.Information .description{
+    color: #3a3838;
+    display: block;
+    text-align: left;
+    font-size: 0.8rem;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 4px;
+    padding: .5rem 0 .5rem 0;
+}

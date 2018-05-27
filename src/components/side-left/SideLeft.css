@@ -1,0 +1,144 @@
+
+
+.SideLeft{
+    background-color: #3e3b3b;
+   /* width: 25% */;
+    height: auto;
+    flex: 0 0 100%;
+}
+
+@media only screen and (min-width:961px){
+    .SideLeft{
+        background-color: #3e3b3b;
+       /* width: 25% */;
+        height: auto;
+        flex: 0 0 35%;
+    }
+}
+
+.SideLeft .header{
+   padding: 2rem;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+}
+
+.SideLeft .avatar{
+    border-radius: 8%;
+    border: 1 solid #c1c1c1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.SideLeft .person-name{
+    color: #f1f1f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding: .5rem
+ }
+
+ 
+.SideLeft .person-profession{
+    color: #f1f1f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: .5rem;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding: .5rem
+ }
+
+
+
+.SideLeft .line{
+    display: block;
+    border-radius: 50px;
+    height: .1rem;
+    width: 95%;
+    margin-left: auto;
+    background-color: #fff;
+}
+
+
+.SideLeft .content{
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+ }
+ 
+
+
+.SideLeft .profile-label{
+    color: #f1f1f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: .5rem;
+}
+ 
+.SideLeft .line2{
+    display: block;
+    border-radius: 50px;
+    height: .1rem;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.SideLeft .profile-description{
+    color: #f1f1f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: .7rem;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 3px;
+    padding: .5rem;
+    line-height: 1.4rem;
+}
+
+
+.SideLeft .skill-label{
+    color: #f1f1f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: .7rem;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 3px;
+    padding: .5rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+}
+/*
+.SideLeft .progress-bar{
+    border: 1px solid #f1f1f1;
+    width: 80%;
+    height: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SideLeft .progress-bar-content{
+    background-color: #f1f1f1;
+    height: 1rem;
+}*/

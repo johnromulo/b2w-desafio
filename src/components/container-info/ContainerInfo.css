@@ -1,0 +1,44 @@
+.ContainerInfo {
+    background-color: #fff;
+    height: auto;
+    flex: 0 0 100%;
+   
+}
+
+@media only screen and (min-width:961px){
+    .ContainerInfo {
+        background-color: #fff;
+        height: auto;
+        flex: 0 0 65%;
+    }
+}
+
+.ContainerInfo .content{
+    padding: 2rem;
+}
+
+.ContainerInfo .label-text{
+    color: #3a3838;
+    display: block;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+
+.ContainerInfo .line{
+    display: block;
+    border-radius: 50px;
+    height: .1rem;
+    width: 89%;
+    background-color: #3a3838;
+    margin: .5rem;
+}
+
+.ContainerInfo .info{
+    padding: .5rem;
+}

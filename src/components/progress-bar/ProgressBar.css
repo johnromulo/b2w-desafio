@@ -1,0 +1,12 @@
+.ProgressBar .progress-bar{
+    border: 1px solid #f1f1f1;
+    width: 80%;
+    height: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ProgressBar .progress-bar-content{
+    background-color: #f1f1f1;
+    height: 1rem;
+}
