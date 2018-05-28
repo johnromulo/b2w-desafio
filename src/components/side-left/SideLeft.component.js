@@ -14,7 +14,9 @@ export default class SideLeft extends Component {
             <div className="SideLeft">
                 <div className="header">
                     <img className="avatar"
-                        src={"https://raw.githubusercontent.com/b2w-marketplace/code-challenge/master/files/avatar-dev.png"} />
+                        src={
+                            this.props.person.profile.image.replace("github.com","raw.githubusercontent.com").replace("blob/","")
+                           } />
                     <div className="person-name">{this.props.person.profile.name}</div>
                     <div className="person-profession">{this.props.person.profile.profession}</div>
                 </div>
