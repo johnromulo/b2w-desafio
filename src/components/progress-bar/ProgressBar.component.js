@@ -3,10 +3,6 @@ import './ProgressBar.css';
 
 export default class ProgressBar extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="ProgressBar">

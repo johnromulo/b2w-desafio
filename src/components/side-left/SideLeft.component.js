@@ -4,16 +4,12 @@ import ProgressBar from '../progress-bar/ProgressBar.component';
 
 export default class SideLeft extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
-
     render() {
         return (
             <div className="SideLeft">
                 <div className="header">
                     <img className="avatar"
+                        alt="Img Profile"
                         src={
                             this.props.person.profile.image.replace("github.com","raw.githubusercontent.com").replace("blob/","")
                            } />

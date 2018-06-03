@@ -4,11 +4,6 @@ import Information from '../information/Information.component';
 
 export default class ContainerInfo extends Component {
 
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="ContainerInfo">
